@@ -1,0 +1,14 @@
+services:
+  express:
+    image: node:14
+    volumes:
+      - type: bind
+        source: ./
+        target: /app
+    working_dir: /app
+    command: npm run dev
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
