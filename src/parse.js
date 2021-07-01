@@ -13,7 +13,7 @@ const parse = (data) => {
   return { 
     ...cdata.about,
     ...cdata.mainEntity,
-    maintenance 
+    maintenance
   };
 }
 

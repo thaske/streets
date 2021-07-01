@@ -7,10 +7,10 @@ const index = async (req, res) => {
     const { a, url } = req.query;
 
     if(!url) return res.sendStatus(400);
-    const showAmenities = a;
+    const showAmenities = Boolean(a);
 
     const html = await page(url);
-    const data = transform(parse(html), Boolean(showAmenities));
+    const data = transform(parse(html), showAmenities);
 
     return res.status(200).json(data);
   } catch (err) {

@@ -17,15 +17,15 @@ const transform = (data, showAmenities = false) => {
   } = data;
   
   const price = formatter.format(unformattedPrice);
-  const available = availability === "inStock";
-  const amenities = amenityFeature.map(obj => obj.name);
+  const available = availability === "inStock" ? "Available" : "In Contract";
+  const amenities = showAmenities ? amenityFeature.map(obj => obj.name) : undefined;
 
   return {
     name,
     price,
     maintenance,
     available,
-    amenities: (showAmenities ? amenities : undefined),
+    amenities,
   };
 }
 
