@@ -25,7 +25,7 @@ const transform = (data, showAmenities = false) => {
     price,
     maintenance,
     available,
-    amenities: (showAmenities ? amenities : null),
+    amenities: (showAmenities ? amenities : undefined),
   };
 }
 
