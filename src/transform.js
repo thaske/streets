@@ -10,6 +10,7 @@ const transform = (data, showAmenities = false) => {
     name, 
     maintenance, 
     amenityFeature,
+    neighborhood,
     offers: {
       price: unformattedPrice, 
       availability
@@ -25,6 +26,7 @@ const transform = (data, showAmenities = false) => {
     price,
     maintenance,
     available,
+    neighborhood,
     amenities,
   };
 }
