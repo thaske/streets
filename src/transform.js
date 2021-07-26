@@ -25,7 +25,7 @@ const transform = (data, showAmenities = false) => {
     name,
     price,
     maintenance,
-    available,
+    // available,
     neighborhood,
     amenities,
   };
