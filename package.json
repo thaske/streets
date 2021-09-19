@@ -1,5 +1,5 @@
 {
-  "name": "***REMOVED***",
+  "name": "streets",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thaske/***REMOVED***.git"
+    "url": "git+https://github.com/thaske/streets.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thaske/***REMOVED***/issues"
+    "url": "https://github.com/thaske/streets/issues"
   },
-  "homepage": "https://github.com/thaske/***REMOVED***#readme",
+  "homepage": "https://github.com/thaske/streets#readme",
   "devDependencies": {
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
